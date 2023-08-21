@@ -70,3 +70,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 画像ファイルは別途共有するので除外する．(GitHubでは500MBを超えた管理ができなくなるため!!)
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.tiff
+
